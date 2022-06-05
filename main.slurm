@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #SBATCH --nodes=1
-#SBATCH --job-name=resnet18_cifar10_alt                                              # job name
+#SBATCH --job-name=resnet18_cifar10_alt2                                              # job name
 #SBATCH --workdir=/home/alpayozkan/	                    # working directory
 #SBATCH --nodelist=romer1
 #SBATCH --gres=gpu:1            # or you can specify gpu type: --gres=gpu:rtx2080ti:1					# how many gpu(s) will be reserved
-#SBATCH --output=/home/alpayozkan/denge_exps/resnet18_cifar10_alt-%j.out	              # output file
-#SBATCH --error=/home/alpayozkan/denge_exps/resnet18_cifar10_alt-%j.err	              # error file
+#SBATCH --output=/home/alpayozkan/denge_exps/resnet18_cifar10_alt2-%j.out	              # output file
+#SBATCH --error=/home/alpayozkan/denge_exps/resnet18_cifar10_alt2-%j.err	              # error file
 #SBATCH --time=2-00:00:00				                                # max job time. (currently no need to use)
 
 
